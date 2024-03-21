@@ -8,6 +8,9 @@
 	<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 <body>
+
+	<!-- static chat -->
+
 	<div class="chat-container">
 		<div class="chat outgoing">
 			<div class="chat-content">
@@ -30,11 +33,36 @@
 				<span class="material-symbols-outlined">content_copy</span>
 			</div>	
 		</div>
+		<!-- first one-->
+		<div class="chat outgoing">
+			<div class="chat-content">
+				<div class="chat-details">
+					<img src="./assets/user.jpg" alt="user-img">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+				</div>
+			</div>	
+		</div>
+		<div class="chat incoming">
+			<div class="chat-content">
+				<div class="chat-details">
+					<img src="./assets/chatbot.jpg" alt="chatbot-img">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<span class="material-symbols-outlined">content_copy</span>
+			</div>	
+		</div>
 	</div>	
+
+	<!-- typing container-->
+
 	<div class="typing-container">
 		<div class="typing-content">
 			<div class="typing-textarea">
-				<textarea id="chat-input" placeholder="Enter a promt here"></textarea>
+				<textarea id="chat-input" placeholder="Enter a promt here" required></textarea>
 				<span id="send-btn"class="material-symbols-outlined">send</span>
 			</div>
 			<div class="typing-controls">
